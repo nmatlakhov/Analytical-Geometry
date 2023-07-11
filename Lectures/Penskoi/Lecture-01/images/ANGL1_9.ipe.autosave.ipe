@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.27">
-<info created="D:20220814115213" modified="D:20230711173136"/>
+<info created="D:20220814115213" modified="D:20230711171655"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -716,6 +716,5 @@ h
 <use name="mark/disk(sx)" pos="128 528" size="small" stroke="black"/>
 <text matrix="1 0 0 1 -2.49953 0.239126" transformations="translations" pos="249.438 518.201" stroke="red" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_1</text>
 <text matrix="1 0 0 1 25.2785 40.1816" transformations="translations" pos="249.438 518.201" stroke="red" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_2</text>
-<text matrix="1 0 0 1 -4.57598 -5.19997" transformations="translations" pos="127.779 539.234" stroke="black" type="label" width="6.683" height="6.808" depth="0" valign="baseline" style="math">S</text>
 </page>
 </ipe>

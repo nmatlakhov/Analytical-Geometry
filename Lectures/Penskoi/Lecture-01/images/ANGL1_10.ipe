@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70218" creator="Ipe 7.2.23">
-<info created="D:20220814115213" modified="D:20220820191850"/>
+<ipe version="70218" creator="Ipe 7.2.27">
+<info created="D:20220814115213" modified="D:20230711173354"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -662,12 +662,12 @@ h
 <path matrix="2 0 0 2 -96 -640" stroke="black">
 24.5558 0 0 24.5558 187.87 596.739 e
 </path>
-<use matrix="2 0 0 2 -96 -640" name="mark/disk(sx)" pos="166.596 609.003" size="small" stroke="black"/>
+<use matrix="2 0 0 2 -96 -640" name="mark/disk(sx)" pos="166.596 609.003" size="small" stroke="red"/>
 <use matrix="2 0 0 2 -96 -640" name="mark/disk(sx)" pos="182.543 572.768" size="small" stroke="black"/>
 <use matrix="2 0 0 2 -96 -640" name="mark/disk(sx)" pos="182.817 620.77" size="small" stroke="black"/>
 <use matrix="2 0 0 2 -96 -640" name="mark/disk(sx)" pos="187.87 596.739" size="small" stroke="black"/>
-<use matrix="2 0 0 2 -96 -640" name="mark/disk(sx)" pos="154.28 587.64" size="small" stroke="black"/>
-<text matrix="1 0 0 1 41.0838 -48.5284" transformations="translations" pos="157.513 584.927" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_1</text>
-<text matrix="1 0 0 1 69.987 -34.318" transformations="translations" pos="172.027 606.365" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_2</text>
+<use matrix="2 0 0 2 -96 -640" name="mark/disk(sx)" pos="154.28 587.64" size="small" stroke="red"/>
+<text matrix="1 0 0 1 41.0838 -48.5284" transformations="translations" pos="157.513 584.927" stroke="red" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_1</text>
+<text matrix="1 0 0 1 69.987 -34.318" transformations="translations" pos="172.027 606.365" stroke="red" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_2</text>
 </page>
 </ipe>
