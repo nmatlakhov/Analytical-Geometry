@@ -7,7 +7,7 @@
 \usepackage[russian]{babel}
 \usepackage{enumitem}
 \usepackage[normalem]{ulem}
-\usepackage{amsfonts, amsmath, amsthm, amssymb, mathtools,xcolor}
+\usepackage{amsfonts, amsmath, amsthm, amssymb, mathtools,xcolor,accents}
 \usepackage{blkarray}
 
 \usepackage{tabularx}
@@ -50,15 +50,19 @@
 \newcommand{\MTI}{\mathbb{I}}
 \newcommand{\MI}{\mathrm{I}}
 \newcommand{\MCI}{\mathcal{I}}
+\newcommand{\MCR}{\mathcal{R}}
 \newcommand{\MJ}{\mathrm{J}}
 \newcommand{\MH}{\mathrm{H}}
 \newcommand{\MT}{\mathrm{T}}
 \newcommand{\MU}{\mathcal{U}}
 \newcommand{\MV}{\mathcal{V}}
+\newcommand{\MA}{\mathcal{A}}
 \newcommand{\MB}{\mathcal{B}}
 \newcommand{\MF}{\mathcal{F}}
+\newcommand{\ME}{\mathcal{E}}
 \newcommand{\MW}{\mathcal{W}}
 \newcommand{\ML}{\mathcal{L}}
+\newcommand{\MM}{\mathcal{M}}
 \newcommand{\MP}{\mathcal{P}}
 \newcommand{\VN}{\varnothing}
 \newcommand{\VE}{\varepsilon}
@@ -107,6 +111,9 @@
 
 \DeclareMathOperator*{\dsum}{\displaystyle\sum}
 \newcommand{\ddsum}[2]{\displaystyle\sum\limits_{#1}^{#2}}
+\newcommand{\ddssum}[2]{\displaystyle\smashoperator{\sum\limits_{#1}^{#2}}}
+\newcommand{\ddlsum}[2]{\displaystyle\smashoperator[l]{\sum\limits_{#1}^{#2}}}
+\newcommand{\ddrsum}[2]{\displaystyle\smashoperator[r]{\sum\limits_{#1}^{#2}}}
 
 %Интеграл в большом формате
 \DeclareMathOperator{\dint}{\displaystyle\int}
@@ -139,10 +146,12 @@
 %Подпись символов снизу
 \newcommand{\ubar}[1]{\underaccent{\bar}{#1}}
 
-%% Шапка для букв сверху
+%%Шапка для букв сверху
 \newcommand{\wte}[1]{\widetilde{#1}}
 \newcommand{\wht}[1]{\widehat{#1}}
 \newcommand{\ovl}[1]{\overline{#1}}
+\newcommand{\unl}[1]{\underline{#1}}
+
 
 %%Трансформация Фурье
 \newcommand{\fourt}[1]{\mathcal{F}\left(#1\right)}
@@ -163,10 +172,14 @@
 \DeclareMathOperator{\SL}{\operatorname{SL}}
 \DeclareMathOperator{\Char}{\operatorname{char}}
 \DeclareMathOperator\Arg{Arg}
+\DeclareMathOperator\ord{ord}
+
+%Оператор для образа
+\DeclareMathOperator{\Ima}{Im}
 
 %Делимость чисел
 \newcommand{\modn}[3]{#1 \equiv #2 \; (\bmod \; #3)}
-
+\newcommand{\nmodn}[3]{#1 \not\equiv #2 \; (\bmod \; #3)}
 
 %%Взятие в скобки, модули и норму
 \newcommand{\parfit}[1]{\left( #1 \right)}
@@ -178,6 +191,11 @@
 \newcommand{\uconv}[1]{\overset{#1}{\rightrightarrows}}
 \newcommand{\uconvm}[2]{\overset{#1}{\underset{#2}{\rightrightarrows}}}
 
+%% Функция для добавления круга сверху множества
+\newcommand{\Circ}[1]{\accentset{\circ}{#1}}
+
+%% Жирное подчеркивание
+\newcommand{\buline}[1]{\textbf{\uline{#1}}}
 
 %%Функция для обозначения нижнего и верхнего интегралов
 \def\upint{\mathchoice%
@@ -190,6 +208,12 @@
 
 %%След матрицы
 \DeclareMathOperator*{\tr}{tr}
+
+\DeclareMathOperator*{\symdif}{\bigtriangleup}
+
+% Верхние\нижние пределы
+\DeclareMathOperator*\lowlim{\underline{lim}}
+\DeclareMathOperator*\uplim{\overline{lim}}
 
 \makeatletter
 \renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%

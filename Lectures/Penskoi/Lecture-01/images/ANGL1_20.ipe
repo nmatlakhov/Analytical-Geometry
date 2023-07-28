@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.27">
-<info created="D:20220814115213" modified="D:20230712022843"/>
+<info created="D:20220814115213" modified="D:20230716213218"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -641,8 +641,8 @@ h
 <path matrix="1 0 0 0.5 0 256" stroke="black">
 64 0 0 64 256 512 e
 </path>
-<use name="mark/disk(sx)" pos="224 512" size="small" stroke="black"/>
-<use name="mark/disk(sx)" pos="288 512" size="small" stroke="black"/>
+<use name="mark/disk(sx)" pos="224 512" size="normal" stroke="black"/>
+<use name="mark/disk(sx)" pos="288 512" size="normal" stroke="black"/>
 <text matrix="1 0 0 1 -5.438 4.00262" transformations="translations" pos="224 496" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_1</text>
 <text matrix="1 0 0 1 -5.438 4.00262" transformations="translations" pos="288 496" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_2</text>
 <path matrix="1 0 0 1 32.0002 0.00058088" stroke="black">
@@ -705,8 +705,8 @@ h
 <path matrix="1 0 0 0.5 224 256" stroke="black">
 64 0 0 64 256 512 e
 </path>
-<use matrix="1 0 0 1 224 0" name="mark/disk(sx)" pos="224 512" size="small" stroke="black"/>
-<use matrix="1 0 0 1 224 0" name="mark/disk(sx)" pos="288 512" size="small" stroke="black"/>
+<use matrix="1 0 0 1 224 0" name="mark/disk(sx)" pos="224 512" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 224 0" name="mark/disk(sx)" pos="288 512" size="normal" stroke="black"/>
 <text matrix="1 0 0 1 218.562 4.00262" transformations="translations" pos="224 496" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_1</text>
 <text matrix="1 0 0 1 218.562 4.00262" transformations="translations" pos="288 496" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_2</text>
 <path matrix="1 0 0 1 256 0.00058088" stroke="black">

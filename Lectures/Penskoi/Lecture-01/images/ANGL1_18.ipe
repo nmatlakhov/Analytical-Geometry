@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.27">
-<info created="D:20220814115213" modified="D:20230712020101"/>
+<info created="D:20220814115213" modified="D:20230716212415"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -650,8 +650,8 @@ h
 288 576 m
 97.3333 0 0 97.3333 361.333 512 288 448 a
 </path>
-<use name="mark/disk(sx)" pos="192 512" size="small" stroke="black"/>
-<use name="mark/disk(sx)" pos="288 512" size="small" stroke="black"/>
+<use name="mark/disk(sx)" pos="192 512" size="normal" stroke="black"/>
+<use name="mark/disk(sx)" pos="288 512" size="normal" stroke="black"/>
 <text matrix="1 0 0 1 4.56931 0" transformations="translations" pos="181.993 499.271" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_1</text>
 <text matrix="1 0 0 1 100.569 0.00036583" transformations="translations" pos="181.993 499.271" stroke="black" type="label" width="10.876" height="6.812" depth="1.49" valign="baseline" style="math">F_2</text>
 <path matrix="0.301834 0 0 0.301834 230.069 393.098" stroke="black">
@@ -676,5 +676,6 @@ h
 </path>
 <text matrix="1 0 0 1 -2.56168 -0.480315" transformations="translations" pos="279.025 550.709" stroke="blue" type="label" width="6.41" height="4.289" depth="0" valign="baseline" style="math">\alpha</text>
 <text matrix="1 0 0 1 -12.1683 -28.0185" transformations="translations" pos="279.025 550.709" stroke="blue" type="label" width="6.41" height="4.289" depth="0" valign="baseline" style="math">\alpha</text>
+<use name="mark/disk(sx)" pos="268.199 540.28" size="normal" stroke="black"/>
 </page>
 </ipe>
